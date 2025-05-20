@@ -75,7 +75,7 @@ dist/crosshair_tool.exe
 
 ## 👤 作者
 
-Created by **[あなたの名前 or GitHub ID]**  
+Created by **tosakax2**  
 FPS、作業支援、正確な中心確認に役立つ、シンプルで邪魔にならないツールを目指しました。
 
 ---
