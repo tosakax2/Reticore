@@ -32,7 +32,7 @@ python main.py
 以下コマンドで単体の `.exe` を作成可能です：
 
 ```bash
-pyinstaller --noconsole --onefile --icon=cyber_crosshair.ico --name Reticore main.py
+pyinstaller --noconsole --onefile --icon=icon.ico --name Reticore main.py
 ```
 
 生成後の実行ファイル：
