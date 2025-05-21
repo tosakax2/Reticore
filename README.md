@@ -38,7 +38,7 @@ pyinstaller --noconsole --onefile --icon=icon.ico --name Reticore main.py
 生成後の実行ファイル：
 
 ```
-dist/crosshair_tool.exe
+dist/Reticore.exe
 ```
 
 - Python や PyQt がインストールされていない環境でもそのまま起動可能です。
