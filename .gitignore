@@ -21,10 +21,6 @@ venv/
 ENV/
 *.egg-info/
 
-# Icon/Output artifacts
-*.ico
-*.exe
-
 # OS-specific files
 .DS_Store
 Thumbs.db

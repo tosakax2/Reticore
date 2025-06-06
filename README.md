@@ -15,30 +15,4 @@ Python + PyQt6 製の軽量アプリケーションで、画面中央にシン�
 ## 動作環境
 
 - OS：**Windows 11**
-- Python：**3.13 以降**
-- ライブラリ：
-  ```bash
-  pip install PyQt6
-  ```
-
-## 実行方法
-
-```bash
-python main.py
-```
-
-## EXEファイル化（PyInstaller）
-
-以下コマンドで単体の `.exe` を作成可能です：
-
-```bash
-pyinstaller --noconsole --onefile --icon=icon.ico --name Reticore main.py
-```
-
-生成後の実行ファイル：
-
-```
-dist/Reticore.exe
-```
-
-- Python や PyQt がインストールされていない環境でもそのまま起動可能です。
+- Python：**3.11 以降**
