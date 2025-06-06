@@ -1,9 +1,10 @@
+import os
 import sys
 from PyQt6.QtWidgets import (
     QApplication, QWidget, QPushButton, QVBoxLayout, QMainWindow,
     QSlider, QLabel, QHBoxLayout, QColorDialog
 )
-from PyQt6.QtGui import QPainter, QPen, QColor
+from PyQt6.QtGui import QPainter, QPen, QColor, QIcon
 from PyQt6.QtCore import Qt
 
 # ===== 定数定義 =====
@@ -13,7 +14,7 @@ DEFAULT_SIZE = 14                         # デフォルトサイズ
 DEFAULT_THICKNESS = 2                    # デフォルトの太さ
 DEFAULT_COLOR = QColor(0, 255, 255)      # デフォルト色（シアン）
 
-WINDOW_TITLE = "Reticore Control"
+WINDOW_TITLE = "Reticore"
 WINDOW_WIDTH = 240
 WINDOW_HEIGHT = 160
 
@@ -92,6 +93,8 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(WINDOW_TITLE)
+        icon_path = os.path.join(os.path.dirname(__file__), "icon.ico")
+        self.setWindowIcon(QIcon(icon_path))
         self.setFixedSize(WINDOW_WIDTH, WINDOW_HEIGHT)
         self.crosshair = None
 
